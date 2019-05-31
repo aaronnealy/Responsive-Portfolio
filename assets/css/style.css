@@ -224,6 +224,64 @@ input[type=submit] {
   list-style-type:none;
 }
 
+@media only screen and (max-width: 768px) {
+  #masthead{
+    position: relative
+
+  }
+
+  #logo{
+    width: 50%;
+    
+  }
+
+  .menu  {
+    text-align: right;
+    width: 50%;
+    padding-right: 15px;
+  }
+
+  .menu a{
+    margin: 0px;
+  }
+
+  .auth-image{
+    width:55%;
+  }
+
+  .work{
+    width:45%;
+    overflow: auto;
+    float:left;
+    position: relative;
+    margin: 20px 0 25px;
+  }
+
+  #main-container{
+    margin: auto;
+    padding-top: 2px;
+  }
+
+  #main-header{
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin: 0px;
+  }
+
+  .text-index{
+    text-align: left;
+    font-size: 16px;
+    width: 100%
+   
+  }
+
+  #list{
+    padding: 0px;
+   
+  }
+
+}
+
 @media only screen and (max-width: 640px) {
   #masthead{
     position: static;
@@ -276,26 +334,7 @@ input[type=submit] {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  #masthead{
-    /* position: static; */
 
-  }
-
-  #logo{
-    text-align: center;
-    float: left;
-  
-  }
-
-  .menu  {
-  
-  }
-
-  .menu a{
-    margin: 0px;
-  }
-}
 
 
 
