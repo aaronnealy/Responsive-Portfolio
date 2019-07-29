@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  /* background: url("../images/concrete_seamless.png"); */
 }
 
 * {
@@ -33,15 +33,15 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Staatliches', cursive;
   font-weight: 700;
-  color: #4aaaa5;
+  color: black;
 }
 
 h1 {
   padding-bottom: 20px;
-  font-size: 30px;
-  line-height: 49px;
+  font-size: 40px;
+  line-height: 30px;
   border-bottom: 3px solid #dddddd;
 }
 
@@ -59,22 +59,22 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background: #ffffff;
-  border-bottom: 2px solid #cccccc;
+  background: black;
+  border-bottom: 2px solid black;
 }
 
 #logo {
   float: left;
   width: 250px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: black;
 }
 
 nav {
@@ -102,11 +102,11 @@ footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
-  color: #ffffff;
-  color: #cccccc;
+  color: black;
+  color: black;
   text-align: center;
-  background: #666666;
-  border-top: 8px solid #4aaaa5;
+  background: #ffffff;
+  border-top: 8px solid black;
   height: 50px;
 }
 
